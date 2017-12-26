@@ -42,3 +42,9 @@ send line to all clients:
 ```js
 io.emit('draw_line', { line: data.line });
 ```
+
+### Autotests
+```sh
+node server.js
+./node_modules/mocha/bin/mocha
+```
